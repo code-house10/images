@@ -1,0 +1,146 @@
+@keyframes animate-fade-in-up
+{
+   0% { transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@keyframes slide-up-in
+{
+   0% { transform: translate(0px,100%) rotate(1deg) ; opacity: 0; transform-origin: 0 0;  }
+   100% { opacity: 1; transform: translate(0px,0px) rotate(0deg) ; transform-origin: 0 0;  }
+}
+@keyframes transform-scale-in
+{
+   0% { opacity: 0; transform: rotate(0deg) scale(0,0) ;  }
+   100% { opacity: 1; transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+a.green
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.green:visited
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.green:active
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.green:hover
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   --color: #2E74B5;
+   background-color: transparent;
+}
+.RTL
+{
+   text-decoration: none;
+   background-color: transparent;
+   .rtl-text {
+  direction: rtl;
+   };
+}
+.color1
+{
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url('../images/3d06ab17-207e-41ea-8a0f-a201c7286d5a.jpg');
+}
+@media only screen and (max-width: 969px)
+{
+}
